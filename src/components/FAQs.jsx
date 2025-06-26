@@ -5,7 +5,7 @@ import Blur from "../assets/FAQBlur1.png";
 const FAQs = () => {
   return (
     <div
-      className="w-full max-h-screen bg-white relative overflow-hidden px-4 md:px-20 pt-8 md:pt-7 scrollbar-hide
+      className="w-full min-h-screen bg-white relative overflow-hidden px-4 md:px-20 pt-8 md:pt-7 scrollbar-hide
     md:pb-[20px] ">
       <div className="flex flex-col items-center text-center gap-2">
         {/* Subtitle */}
