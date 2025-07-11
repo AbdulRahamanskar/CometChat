@@ -25,7 +25,7 @@ const Accordians = () => {
     },
     {
       id: 4,
-      title: "This is a very long frequently asked question about our services",
+      title: "This is a very long frequently asked question",
       content: "This is the content of the above FAQ.",
     },
     {
