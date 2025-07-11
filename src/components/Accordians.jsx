@@ -59,7 +59,7 @@ const Accordians = () => {
             {openIndex === index ? (
               <FaChevronUp className="md:text-xl" />
             ) : (
-              <FaChevronDown className="md:text-xl text-sm" />
+              <FaChevronDown className="md:text-xl text-2sm" />
             )}
           </button>
           {openIndex === index && (
