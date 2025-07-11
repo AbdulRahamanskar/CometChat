@@ -25,8 +25,7 @@ const Accordians = () => {
     },
     {
       id: 4,
-      title:
-        "This is a very long frequently asked question about our services with more than one line?",
+      title: "This is a very long frequently asked question about our services",
       content: "This is the content of the above FAQ.",
     },
     {
@@ -58,9 +57,9 @@ const Accordians = () => {
             className="w-full flex justify-between items-center px-6 py-4 font-semibold text-lg text-[#14131D] focus:outline-none cursor-pointer">
             <span className="text-left">{item.title}</span>
             {openIndex === index ? (
-              <FaChevronUp className="text-xl" />
+              <FaChevronUp className="md:text-xl" />
             ) : (
-              <FaChevronDown className="text-xl" />
+              <FaChevronDown className="md:text-xl text-sm" />
             )}
           </button>
           {openIndex === index && (
